@@ -82,7 +82,7 @@ def getValue(driver, attribute):
 
 
 
-driver = webdriver.Firefox(executable_path='/home/tharles/.geckodriver/geckodriver')
+driver = webdriver.Firefox(executable_path='path-to/geckodriver')
 
 for id in range(1, 30001, 1):
     try:
